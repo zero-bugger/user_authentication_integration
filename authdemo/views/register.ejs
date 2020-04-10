@@ -1,0 +1,33 @@
+<%- include("partials/header") %>
+
+<div class="ui main text container segment">
+	<form  action="/register" method="POST">
+		<div class="form-group">
+			 <label>Username</label>
+			<input class="form-control" type="text" name="username" placeholder="username">
+		</div>	
+		
+		<div class="form-group">
+			 <label>Password</label>
+			 <input class="form-control" type="password" name="password" placeholder="password">
+		</div>
+	
+		<button class="btn btn-primary">
+			Submit
+		</button>
+	
+	</form>
+	
+	
+</div>
+<li>
+	<a href="/register">SignUP</a>
+</li>
+<li>
+	<a href="/login">Sign IN</a>
+</li>
+<li>
+	<a href="/logout">Sign Out</a>
+</li>
+
+<%- include("partials/footer") %>
